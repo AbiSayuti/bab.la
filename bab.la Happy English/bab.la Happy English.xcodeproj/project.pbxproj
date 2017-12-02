@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC16B7391FD252EA00291AC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16B7381FD252EA00291AC0 /* AppDelegate.swift */; };
+		AC16B73B1FD252EA00291AC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16B73A1FD252EA00291AC0 /* ViewController.swift */; };
+		AC16B73E1FD252EA00291AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC16B73C1FD252EA00291AC0 /* Main.storyboard */; };
+		AC16B7401FD252EA00291AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC16B73F1FD252EA00291AC0 /* Assets.xcassets */; };
+		AC16B7431FD252EA00291AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC16B7411FD252EA00291AC0 /* LaunchScreen.storyboard */; };
+		AC16B74E1FD252EA00291AC0 /* bab_la_Happy_EnglishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16B74D1FD252EA00291AC0 /* bab_la_Happy_EnglishTests.swift */; };
+		AC16B7591FD252EA00291AC0 /* bab_la_Happy_EnglishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16B7581FD252EA00291AC0 /* bab_la_Happy_EnglishUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC16B74A1FD252EA00291AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC16B72D1FD252EA00291AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC16B7341FD252EA00291AC0;
+			remoteInfo = "bab.la Happy English";
+		};
+		AC16B7551FD252EA00291AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC16B72D1FD252EA00291AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC16B7341FD252EA00291AC0;
+			remoteInfo = "bab.la Happy English";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC16B7351FD252EA00291AC0 /* bab.la Happy English.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bab.la Happy English.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC16B7381FD252EA00291AC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC16B73A1FD252EA00291AC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC16B73D1FD252EA00291AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC16B73F1FD252EA00291AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC16B7421FD252EA00291AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC16B7441FD252EA00291AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC16B7491FD252EA00291AC0 /* bab.la Happy EnglishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bab.la Happy EnglishTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC16B74D1FD252EA00291AC0 /* bab_la_Happy_EnglishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bab_la_Happy_EnglishTests.swift; sourceTree = "<group>"; };
+		AC16B74F1FD252EA00291AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC16B7541FD252EA00291AC0 /* bab.la Happy EnglishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bab.la Happy EnglishUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC16B7581FD252EA00291AC0 /* bab_la_Happy_EnglishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bab_la_Happy_EnglishUITests.swift; sourceTree = "<group>"; };
+		AC16B75A1FD252EA00291AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC16B7321FD252EA00291AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B7461FD252EA00291AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B7511FD252EA00291AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC16B72C1FD252EA00291AC0 = {
+			isa = PBXGroup;
+			children = (
+				AC16B7371FD252EA00291AC0 /* bab.la Happy English */,
+				AC16B74C1FD252EA00291AC0 /* bab.la Happy EnglishTests */,
+				AC16B7571FD252EA00291AC0 /* bab.la Happy EnglishUITests */,
+				AC16B7361FD252EA00291AC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC16B7361FD252EA00291AC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC16B7351FD252EA00291AC0 /* bab.la Happy English.app */,
+				AC16B7491FD252EA00291AC0 /* bab.la Happy EnglishTests.xctest */,
+				AC16B7541FD252EA00291AC0 /* bab.la Happy EnglishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC16B7371FD252EA00291AC0 /* bab.la Happy English */ = {
+			isa = PBXGroup;
+			children = (
+				AC16B7381FD252EA00291AC0 /* AppDelegate.swift */,
+				AC16B73A1FD252EA00291AC0 /* ViewController.swift */,
+				AC16B73C1FD252EA00291AC0 /* Main.storyboard */,
+				AC16B73F1FD252EA00291AC0 /* Assets.xcassets */,
+				AC16B7411FD252EA00291AC0 /* LaunchScreen.storyboard */,
+				AC16B7441FD252EA00291AC0 /* Info.plist */,
+			);
+			path = "bab.la Happy English";
+			sourceTree = "<group>";
+		};
+		AC16B74C1FD252EA00291AC0 /* bab.la Happy EnglishTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC16B74D1FD252EA00291AC0 /* bab_la_Happy_EnglishTests.swift */,
+				AC16B74F1FD252EA00291AC0 /* Info.plist */,
+			);
+			path = "bab.la Happy EnglishTests";
+			sourceTree = "<group>";
+		};
+		AC16B7571FD252EA00291AC0 /* bab.la Happy EnglishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC16B7581FD252EA00291AC0 /* bab_la_Happy_EnglishUITests.swift */,
+				AC16B75A1FD252EA00291AC0 /* Info.plist */,
+			);
+			path = "bab.la Happy EnglishUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC16B7341FD252EA00291AC0 /* bab.la Happy English */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC16B75D1FD252EA00291AC0 /* Build configuration list for PBXNativeTarget "bab.la Happy English" */;
+			buildPhases = (
+				AC16B7311FD252EA00291AC0 /* Sources */,
+				AC16B7321FD252EA00291AC0 /* Frameworks */,
+				AC16B7331FD252EA00291AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bab.la Happy English";
+			productName = "bab.la Happy English";
+			productReference = AC16B7351FD252EA00291AC0 /* bab.la Happy English.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC16B7481FD252EA00291AC0 /* bab.la Happy EnglishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC16B7601FD252EA00291AC0 /* Build configuration list for PBXNativeTarget "bab.la Happy EnglishTests" */;
+			buildPhases = (
+				AC16B7451FD252EA00291AC0 /* Sources */,
+				AC16B7461FD252EA00291AC0 /* Frameworks */,
+				AC16B7471FD252EA00291AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC16B74B1FD252EA00291AC0 /* PBXTargetDependency */,
+			);
+			name = "bab.la Happy EnglishTests";
+			productName = "bab.la Happy EnglishTests";
+			productReference = AC16B7491FD252EA00291AC0 /* bab.la Happy EnglishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC16B7531FD252EA00291AC0 /* bab.la Happy EnglishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC16B7631FD252EA00291AC0 /* Build configuration list for PBXNativeTarget "bab.la Happy EnglishUITests" */;
+			buildPhases = (
+				AC16B7501FD252EA00291AC0 /* Sources */,
+				AC16B7511FD252EA00291AC0 /* Frameworks */,
+				AC16B7521FD252EA00291AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC16B7561FD252EA00291AC0 /* PBXTargetDependency */,
+			);
+			name = "bab.la Happy EnglishUITests";
+			productName = "bab.la Happy EnglishUITests";
+			productReference = AC16B7541FD252EA00291AC0 /* bab.la Happy EnglishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC16B72D1FD252EA00291AC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Abi Sayuti";
+				TargetAttributes = {
+					AC16B7341FD252EA00291AC0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					AC16B7481FD252EA00291AC0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC16B7341FD252EA00291AC0;
+					};
+					AC16B7531FD252EA00291AC0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC16B7341FD252EA00291AC0;
+					};
+				};
+			};
+			buildConfigurationList = AC16B7301FD252EA00291AC0 /* Build configuration list for PBXProject "bab.la Happy English" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC16B72C1FD252EA00291AC0;
+			productRefGroup = AC16B7361FD252EA00291AC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC16B7341FD252EA00291AC0 /* bab.la Happy English */,
+				AC16B7481FD252EA00291AC0 /* bab.la Happy EnglishTests */,
+				AC16B7531FD252EA00291AC0 /* bab.la Happy EnglishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC16B7331FD252EA00291AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16B7431FD252EA00291AC0 /* LaunchScreen.storyboard in Resources */,
+				AC16B7401FD252EA00291AC0 /* Assets.xcassets in Resources */,
+				AC16B73E1FD252EA00291AC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B7471FD252EA00291AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B7521FD252EA00291AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC16B7311FD252EA00291AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16B73B1FD252EA00291AC0 /* ViewController.swift in Sources */,
+				AC16B7391FD252EA00291AC0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B7451FD252EA00291AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16B74E1FD252EA00291AC0 /* bab_la_Happy_EnglishTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B7501FD252EA00291AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16B7591FD252EA00291AC0 /* bab_la_Happy_EnglishUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC16B74B1FD252EA00291AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC16B7341FD252EA00291AC0 /* bab.la Happy English */;
+			targetProxy = AC16B74A1FD252EA00291AC0 /* PBXContainerItemProxy */;
+		};
+		AC16B7561FD252EA00291AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC16B7341FD252EA00291AC0 /* bab.la Happy English */;
+			targetProxy = AC16B7551FD252EA00291AC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC16B73C1FD252EA00291AC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC16B73D1FD252EA00291AC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC16B7411FD252EA00291AC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC16B7421FD252EA00291AC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC16B75B1FD252EA00291AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC16B75C1FD252EA00291AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC16B75E1FD252EA00291AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bab.la Happy English/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.bab-la-Happy-English";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC16B75F1FD252EA00291AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bab.la Happy English/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.bab-la-Happy-English";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC16B7611FD252EA00291AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bab.la Happy EnglishTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.bab-la-Happy-EnglishTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bab.la Happy English.app/bab.la Happy English";
+			};
+			name = Debug;
+		};
+		AC16B7621FD252EA00291AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bab.la Happy EnglishTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.bab-la-Happy-EnglishTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bab.la Happy English.app/bab.la Happy English";
+			};
+			name = Release;
+		};
+		AC16B7641FD252EA00291AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bab.la Happy EnglishUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.bab-la-Happy-EnglishUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bab.la Happy English";
+			};
+			name = Debug;
+		};
+		AC16B7651FD252EA00291AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bab.la Happy EnglishUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.bab-la-Happy-EnglishUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bab.la Happy English";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC16B7301FD252EA00291AC0 /* Build configuration list for PBXProject "bab.la Happy English" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16B75B1FD252EA00291AC0 /* Debug */,
+				AC16B75C1FD252EA00291AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC16B75D1FD252EA00291AC0 /* Build configuration list for PBXNativeTarget "bab.la Happy English" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16B75E1FD252EA00291AC0 /* Debug */,
+				AC16B75F1FD252EA00291AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC16B7601FD252EA00291AC0 /* Build configuration list for PBXNativeTarget "bab.la Happy EnglishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16B7611FD252EA00291AC0 /* Debug */,
+				AC16B7621FD252EA00291AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC16B7631FD252EA00291AC0 /* Build configuration list for PBXNativeTarget "bab.la Happy EnglishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16B7641FD252EA00291AC0 /* Debug */,
+				AC16B7651FD252EA00291AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC16B72D1FD252EA00291AC0 /* Project object */;
+}
